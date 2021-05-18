@@ -134,7 +134,7 @@ In the final phase of the project we want to expose the new
 functionality to `pandoc`'s Lua interface so that users can, for
 example, write custom combined figures output for a particular format.
 
-## Project timeline.`\label{sec:timeline}`{=tex}
+## Project timeline.
 
 These are the planned stages to complete the project. Figure
 3 shows the allocated time per activity. The
@@ -162,7 +162,7 @@ This also includes deciding on `pandoc`'s output for HTML and LaTeX.
 
 **Deliverables**: the markdown syntax, the tests, the output.
 
-### Add a constructor to the native representation that represents figures. {#sec:new-constructor}
+### Add a constructor to the native representation that represents figures.
 
 Based on the syntax and the feature. This is the time to design the data
 structure that will hold the information needed. This structure has to
